@@ -8,6 +8,7 @@ PORT ?= 8000
 # Source folders checked by black and pylint
 SRC := mylib api cli
 
+# Specify targets that are orders, not files, so that it executes them if someone creates a file/folder with the same name
 .PHONY: install format format-check lint test run-api refactor all
 
 # Installs uv (if needed) and the dependencies, failing if uv.lock is out of date

@@ -14,9 +14,6 @@ In this lab you will learn to:
 * **Test** all the functionalities with **pytest** and check the code with **black** and **pylint**.
 * Build a **CI pipeline** with **GitHub Actions** that runs all the checks on every push.
 
-The second lab (MLOps-Lab2-demo) starts from this repository and adds the Docker image
-and the continuous deployment.
-
 ## Project structure
 
 ```
